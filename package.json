@@ -3,7 +3,9 @@
 	"publisher": "novecento",
 	"displayName": "geomap-rgis-ext",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"preview": false,
+	"icon": "naruto-logo.jpg",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/novecento050795/geomap-rgis-ext.git"
@@ -26,6 +28,11 @@
 			}
 		]
 	},
+	"iconDefinitions": {
+    "_folder_dark": {
+      "iconPath": "./images/Folder_16x_inverse.svg"
+    }
+  },
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
